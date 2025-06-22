@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/images/*": ["./public/images/*"],
+      "@/uploads/*": ["./public/uploads/*"],
+      "@/templates/*": ["./src/components/templates/*"],
+      "@/modules/*": ["./src/components/modules/*"],
+      "@/models/*": ["./models/*"],
+      "@/utils/*": ["./src/utils/*"],
+      "@/styles/*": ["./src/styles/*"],
+      "@/config/*": ["./config/*"],
+    }
+  },
+  "exclude": ["node_modules"]
+
+}

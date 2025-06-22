@@ -1,0 +1,11 @@
+.wishlist_container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
+    row-gap: 30px;
+    column-gap: 50px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
