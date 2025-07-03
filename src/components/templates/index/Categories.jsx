@@ -13,8 +13,9 @@ const Categories = async ({categories}) => {
             </div>
             <div className={styles.grid_container}>
                 {
-                    categories ??
+                    categories.length ?
                     categories.map((category)=> <CategoryCard key={category._id} data={JSON.parse(JSON.stringify(category))}/>)
+                    :""
                 }
             </div>
         </section>
