@@ -34,4 +34,4 @@ This project is an online grocery sales website that includes features such as: 
     Database Connection : mongoose
     Password hashing : bcryptjs
 
-4-Demo : https://shopino-grocery-store.vercel.app/
+4-Demo : https://shopino-beryl.vercel.app/ 
